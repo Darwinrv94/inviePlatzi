@@ -13,9 +13,19 @@
 			max-width     : 100%;
 			vertical-align: top;
 		}
+
+		img#resposive {
+			display: none;
+		}
+
+		@media screen and (max-width: 768px) {
+			img#resposive {
+				display: block;
+			}
+		}
 	</style>
 </head>
 <body>
-	<img src="img/invie-responsive.png" alt="invieResponsive">
+	<img src="img/invie-responsive.png" alt="invieResponsive" id="responsive">
 </body>
 </html>
